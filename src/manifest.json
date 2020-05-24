@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "TLOCK",
+    "name": "zTLOCK",
     "version": "0.1",
-    "description": "",
+    "description": "New Style",
       "page_action": {
         "default_icon": {
           
@@ -39,10 +39,7 @@
       
     ],
   
-    "options_ui": {
-      "page": "",
-      "open_in_tab": false
-    },
+    
   
     "permissions": [
       "<all_urls>",
