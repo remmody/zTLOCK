@@ -16,6 +16,10 @@
       {
         "matches": ["*://*.darkorbit.com/indexInternal.es?action=internalMapRevolution"],
         "js": [
+          "js/libs/jquery-3.5.1.js",
+          "js/libs/jquery-ui.min.js",
+          "js/libs/konva.min.js",
+          "js/libs/md5.min.js"
           
         ],
         "css": [
