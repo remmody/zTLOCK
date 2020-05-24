@@ -1,0 +1,50 @@
+{
+    "manifest_version": 2,
+    "name": "TLOCK",
+    "version": "0.1",
+    "description": "",
+      "page_action": {
+        "default_icon": {
+          
+        }
+      },
+    "icons": {
+      
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.darkorbit.com/indexInternal.es?action=internalMapRevolution"],
+        "js": [
+          
+        ],
+        "css": [
+          "css/style.css"
+        ],
+        "run_at": "document_start"
+      }
+    ],
+  
+    "background": {
+      "scripts": [
+          "js/background/background.js"
+        ]
+    },
+  
+    "web_accessible_resources": [
+      
+    ],
+  
+    "options_ui": {
+      "page": "html/settings.html",
+      "open_in_tab": false
+    },
+  
+    "permissions": [
+      "<all_urls>",
+      "storage",
+      "webRequest",
+      "webRequestBlocking"
+    ]
+  }
+  
