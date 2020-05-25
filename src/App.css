@@ -1,0 +1,53 @@
+.App {
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 5s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  color: white;
+}
+
+.App-intro {
+  font-size: small;
+}
+
+.Steueu {
+  display: flex;
+  box-shadow: 0 5px 0 #6b6b6b, inset 0 5px 10px #bfbfbf, 0 3px 4px #6b6b6b;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  color: black;
+  background: repeating-linear-gradient(0deg, #555 0, #555 1px, transparent 1px, transparent 5px);
+  background-color: lightgray;
+  background-blend-mode: screen;
+  opacity: .93;
+}
+
+.main-frame {
+  position: absolute;
+  left: 400px;
+  top: 50px;
+}
+
+a.testbutton {
+  cursor: pointer;
+  background:#eee;
+  color: #222222;
+  text-decoration:none;
+  width:90px;
+  text-align:center;
+  margin:20px auto;
+  padding:10px 10px;
+  transition:all 0.3s;
+  border-radius: 5px;
+}
+a.testbutton:hover{
+  box-shadow:0px -3px 0 #6b6b6b inset;
+}
